@@ -1,0 +1,102 @@
+.learning{
+    width : 200px;                      /* can also write "fit-content"
+    height: 200px;
+    
+    /* padding  types*/
+    padding : 7px;                     /*all directions
+    padding-left:20px                   left padding
+    padding-right:20px                  right padding
+    padding-top:20px                    top padding
+    padding-bottom:20px                 bottom padding
+    padding: 30px 80px 10px 100px;      it will assign values like top=30px right=80px bottom=10px left=100px
+    padding: 100px 30px;                it will assign 100px to top and bottom , 30px to left and right*/
+
+    /* margin types */
+    /*margin: 30px;                     all directions
+    margin-left:20px;                   left margin
+    margin-right:20px;                  right margin
+    margin-top:20px;                    top margin
+    margin-bottom:20px;                 bottom margin
+    margin: 30px 80px 10px 100px;       it will assign values like top=30px right=80px bottom=10px left=100px */
+    margin: 50px 30px;                   /*it will assign 50px to top and bottom and 30px to left and right */
+    /* margin: inherit;                 automatically adapt margin according to screens*/
+
+    /* border types */
+    border-width: 9px;
+    /* border: 30px;                   also write like this "border:5px dashed brown" */
+    border-top: 7px;
+    border-bottom: 5px;
+    border-left: 10px;
+    border-right: 4px;
+    border-color: green;
+    border-style: double;
+    /* border-top:2px solid green ;     we can also write like this for top, bottom, left and right in only one 
+                                        line instead of writing border-colour, border-style alag alag */
+    border-radius: 12px;
+    border-spacing: 1px;
+
+
+    /* colour properties */
+    /* color: blueviolet; 
+    color: rgb(217, 107, 171);          rbg means r=red, g=green, b=blue  numbers varies from 0-255
+    color: rgba(100, 70, 129, 0.9);     here "a=alpha". Alpha denotes transparency. values ranges from 0-1.*/
+    color: #00ce1f;                   /*this is hexa decimal value or we can say hex values.it has 16 digits 0-9 and a-f
+    color:hsl(from colour 23 59 120);   this is hsl value. Hue, saturation and lightness */
+    
+    /* background types */
+    background-color: rgba(214, 161, 161, 0.414);
+    background-image: url('porsche.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;         /* "repeat" property will print this image to x and y axis infinite times. */
+    background-position: bottom bottom;
+    background-attachment: scroll;
+    background-position: right bottom;
+    /*there is a background shorthand property which wi written in one line. First, background-color> background-image> background-repeat> background-attachment> background-position. This is written as follows:
+    background: #ffffff url("img_tree.png") no-repeat scroll right top;    here #ffffff is for bg-color, url is for bg-image, no-repeat is for bg-repeat, scroll is for bg-attachment, right top is for -bg-position.but here we have to define bg-size in next line.
+
+    /* outline types */ 
+    outline-width: 3px;
+    outline-color: blue;
+    outline-style: dashed;
+    outline-offset: 10px;
+
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+
+.btn{
+    background-color: burlywood;
+    /* align-items: center; */
+    text-align: left;
+    width: 155px;
+    /* height: 150px; */
+    padding: 7px;
+    margin-left: 2px;
+    margin-top: 5%;
+    /* transform: rotate(45deg); */
+    transition:  10s red;
+    color: green;
+     font-size: 11px;   /*font-size:10vw.  10vw will set the size to 10% viewport width.*/
+    font-family: Franklin Gothic Medium;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-shadow: 0.5px 0.5px 0.5px red;
+}
+
+
+/* ancor tag CSS */
+/* a:link {
+    background-color: yellow;
+  }
+  
+  a:visited {
+    background-color: cyan;
+  }
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+  }  */
